@@ -10,7 +10,8 @@ class PlayListFragment : Fragment(R.layout.play_list) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val playListView = view.findViewById<RecyclerView>(R.id.play_list)
+        val playListView = view.findViewById<RecyclerView>(R.id.play_list_view)
         playListView.adapter = PlayListAdapter()
     }
+
 }

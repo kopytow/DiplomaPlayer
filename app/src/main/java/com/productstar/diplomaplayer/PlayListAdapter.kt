@@ -26,7 +26,7 @@ class PlayListAdapter : RecyclerView.Adapter<TrackViewHolder>() {
 
 class TrackViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-    //private val preview = view.findViewById<TextView>(R.id.preview)
+    private val preview = view.findViewById<ImageView>(R.id.preview)
     private val duration = view.findViewById<TextView>(R.id.song_duration)
     private val singer = view.findViewById<TextView>(R.id.singer)
     private val track = view.findViewById<TextView>(R.id.track)
